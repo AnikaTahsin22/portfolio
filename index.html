@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anika Tahsin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Anika</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="container">
+            <div class="hero-image">
+        <img src="picture.png" alt="Anika Tahsin">
+      </div>
+            <div class="hero-content">
+                <h1 class="fade-in" >Hi, I'm Anika Tahsin</h1>
+                <p class="subtitle fade-in-delay1">Software Engineering Student</p>
+                <p class="description fade-in-delay2">
+                    I am a passionate software engineering student focused on building
+                    efficient and user-friendly digital experiences. Let's create something amazing together.
+                </p>
+                <a href="#projects" class="btn btn-primary fade-in-delay3">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="container fade-in">
+            <h2 class="contact-title">About & Skills</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>About</h3>
+                    <p>
+                        As a software engineering student, I am building a diverse skill set in web development, 
+                        Java, C++, and UI/UX design.
+                         I am passionate about learning new technologies and applying my knowledge to create practical, 
+                         real-world applications.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-java"></i> Java</li>
+                        <li><i class="fas fa-file-code"></i> C++</li>
+                        <li><i class="fab fa-android"></i> Android Studio</li>
+                        <li><i class="fas fa-paint-brush"></i> UI/UX Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container fade-in">
+            <h2 class="contact-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h3>Roll Call Pro</h3>
+                    <p>Attendance Management System. A team project building a mobile attendance system using Android Studio
+                        (XML) for the UI and a XAMPP server for the back-end.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Star-Cinema</h3>
+                    <p>A console-based ticket booking system for a cinema hall, built with Python object-oriented programming to manage halls, shows, and seat booking.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="container fade-in">
+            <h2 class="contact-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm currently available for new opportunities. Feel free to reach out via email, 
+                        connect with me on social media, or send me a message using the form.
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:anikatahsin4486@gmail.com" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+                     
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anika Tahsin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
